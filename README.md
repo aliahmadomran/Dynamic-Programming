@@ -1,20 +1,20 @@
 # Dynamic-Programming
 
- dp_optimal_control Function Solves discrete-time optimal control problem using Dynamic Programming
-    %
-    % Inputs:
-    %   f      - System dynamics function: x(k+1) = f(x(k), u(k), k)
-    %   V      - Stage cost function: V(x(k), u(k), k)
-    %   S      - Terminal cost function: S(x(kf), kf)
-    %   x0     - Initial state
-    %   kf     - Final time step
-    %   x_grid - State space discretization
-    %   u_grid - Control space discretization
+ dp_optimal_control Function Solves discrete-time optimal control problem using Dynamic Programming<br>
+    %<br>
+    % Inputs:<br>
+    %   f      - System dynamics function: x(k+1) = f(x(k), u(k), k)<br>
+    %   V      - Stage cost function: V(x(k), u(k), k)<br>
+    %   S      - Terminal cost function: S(x(kf), kf)<br>
+    %   x0     - Initial state<br>
+    %   kf     - Final time step<br>
+    %   x_grid - State space discretization<br>
+    %   u_grid - Control space discretization<br>
     %
     % Outputs:
-    %   x_opt  - Optimal state trajectory
-    %   u_opt  - Optimal control sequence
-    %   J_opt  - Optimal cost-to-go at initial state
+    %   x_opt  - Optimal state trajectory<br>
+    %   u_opt  - Optimal control sequence<br>
+    %   J_opt  - Optimal cost-to-go at initial state<br>
     
 
 <br>
